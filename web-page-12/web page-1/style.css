@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container_1 {
+  background-image: url(we1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.container_1 > .part_1 {
+  display: flex;
+  cursor: pointer;
+  /* position: fixed; */
+}
+.container_1 > .part_1 > .left {
+  width: 100%;
+  height: 49px;
+  background-color: #262626;
+}
+
+.container_1 > .part_1 > .left > a {
+  float: left;
+  text-decoration: none;
+  padding: 14px 26px;
+  font-size: 17px;
+  color: white;
+}
+.container_1 > .part_1 > .left > a:hover {
+  background-color: grey;
+}
+
+.container_1 > .part_1 > .right {
+  float: right;
+  text-decoration: none;
+  padding: 14px 26px;
+  font-size: 17px;
+  color: white;
+}
+.container_1 > .part_1 > .right:hover {
+  background-color: grey;
+}
+
+.container_1 > .part_2 {
+  text-align: center;
+  margin-top: 653px;
+}
+
+.container_1 > .part_3 {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+
+/* /////pg-2 */
+
+.container-2 {
+  max-width: 800px;
+  padding: 64px 16px;
+  margin: 0 400px;
+}
+.container-2 .row-1 h2 {
+  margin: 10px;
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.para {
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  margin: 15px 0;
+  font-family: Lato, sans-serif;
+  color: grey;
+}
+.para-2 {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.container-2 .row-2 {
+  padding: 32px 0;
+  display: flex;
+}
+.container-2 .row-2 .b-1 {
+  width: 33%;
+  /* float: left; */
+  text-align: center;
+}
+.container-2 .row-2 .b-2 {
+  width: 33%;
+  text-align: center;
+}
+.container-2 .row-2 .b-2 p {
+  /* margin-left: 63px; */
+  margin-bottom: 15px;
+}
+.container-2 .row-2 .b-3 p {
+  /* margin-left: 63px; */
+  margin-bottom: 15px;
+}
+.container-2 .row-2 .b-1 p {
+  /* margin-left: 63px; */
+  margin-bottom: 15px;
+}
+
+.container-2 .row-2 .b-3 {
+  width: 33%;
+  /* float: right; */
+  text-align: center;
+}
+.radius {
+  border-radius: 4px;
+}
+
+/* pg-3 */
+
+.container-3 {
+  color: white;
+  background: black;
+}
+.container-3 > .row-1 {
+  margin: 0 400px;
+  padding: 64px 16px;
+}
+.container-3 > .row-1 h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.container-3 > .row-2 {
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+  color: rgb(117, 117, 117);
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: solid;
+  border-bottom-width: 0.8px;
+
+  border-left-width: 0.8px;
+  border-right-color: rgb(204, 204, 204);
+  border-right-style: solid;
+  border-right-width: 0.8px;
+  border-top-color: rgb(204, 204, 204);
+  border-top-style: solid;
+  border-top-width: 0.8px;
+  list-style-type: none;
+  margin: 0 400px;
+
+  list-style: none;
+  text-decoration: none;
+  height: 143px;
+  width: 766px;
+  margin-bottom: 32px;
+}
+.container-3 > .row-2 ul li {
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: solid;
+  border-bottom-width: 0.8px;
+  list-style-type: none;
+  height: 39px;
+  padding: 4px 8px;
+}
+
+.container-3 span {
+  background-color: red;
+  color: white;
+  margin: 0 0 0 16px;
+  padding: 0 8px;
+}
+.container-3 .sp {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  float: right;
+}
+
+.container-3 > .row-3 {
+  display: flex;
+  margin: 0 400px;
+  justify-content: space-between;
+}
+.container-3 > .row-3 .box-1 {
+  margin: 0 0 16px 0;
+  color: #000 !important;
+  background-color: #fff !important;
+
+  margin-right: 16px;
+}
+.sumup {
+  padding: 0.15px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.heading {
+  margin: 15px 0;
+}
+.paragh {
+  margin: 15px 0;
+  opacity: 0.6;
+}
+.pgh {
+  margin: 15px 0;
+}
+.buy {
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
+.buy:hover {
+  background: #ccc;
+  color: black;
+  border: none;
+}
+
+.container-4 {
+  margin: 0 359px;
+  padding: 64px 16px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+.container-4 h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+  letter-spacing: 4px;
+}
+.container-4 p {
+  text-align: center;
+  font-style: italic;
+  margin: 15px 0;
+}
+.container-4 .row-2 {
+  display: flex;
+  padding: 32px 0;
+}
+.container-4 .row-2 .left {
+  float: left;
+  width: 49%;
+}
+.container-4 .row-2 .right {
+  /* float: left; */
+  width: 49%;
+}
+.container-4 .row-2 .left {
+  font-size: 18px;
+}
+.chicago {
+  width: 30px;
+  display: inline-block;
+}
+.form {
+  display: flex;
+  /* margin: 0 8px 8px; */
+  margin-bottom: 8px;
+}
+.half-1 {
+  padding: 0 8px;
+}
+.half-1 input {
+  padding: 8px;
+  height: 22px;
+}
+.message {
+  padding: 8px;
+  margin: 0 0 0 8px;
+  width: 360px;
+}
+.send {
+  color: #fff;
+  background-color: #000;
+  float: right;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  padding: 8px;
+}
+.footer {
+  padding: 64px 16px;
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.6;
+}
+.footer a {
+  color: #000;
+  cursor: pointer;
+}
